@@ -1,0 +1,81 @@
+/*
+font-family: 'Roboto', sans-serif;
+font-family: 'Mountains of Christmas', cursive;
+font-family: 'Work Sans', sans-serif;
+font-family: 'Alike Angular', serif;
+*/
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 5rem 1rem 3rem;
+}
+
+.logo-title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Mountains of Christmas', cursive;
+  font-size: 1.5rem;
+  letter-spacing: 3px;
+}
+
+.logo-title img {
+  margin-right: 1.2rem;
+}
+
+.nav-cta {
+  color: rgb(221, 50, 50);
+  border: 5px solid rgb(73, 136, 50);
+  padding: 10px;
+  text-decoration: none;
+  font-family: 'Work Sans', sans-serif;
+  font-size: 1.3rem;
+  font-weight: bolder;
+  transition: all .2s;
+}
+
+.nav-cta:hover {
+  background-color: rgb(221, 50, 50);
+  color: white;
+  border: 7px solid rgb(221, 50, 50);
+}
+
+header {
+  height: 70vh;
+  display: flex;
+}
+
+.headline {
+  font-family: 'Roboto', sans-serif;
+  font-size: 2rem;
+  background: #329036;
+  width: 45vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 5rem;
+  color: rgb(227, 227, 227);
+  text-align: center;
+  letter-spacing: 1px;
+}
+
+.headline img {
+  width: 60%;
+  margin-top: 1rem;
+}
+
+.header-img {
+  width: 55vw;
+  background: url("assets/uglysweater.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}

@@ -11,6 +11,10 @@ font-family: 'Alike Angular', serif;
   box-sizing: border-box;
 }
 
+html {
+  font-size: 16px;
+}
+
 img {
   border-radius: 10px;
 }
@@ -272,4 +276,55 @@ footer {
   font-size: 1.8rem;
   font-family: 'Mountains of Christmas', cursive;
   color: rgb(61, 61, 61)
+}
+
+@media (min-width: 2000px) {
+  html {
+    font-size: 20px;
+  }
+}
+
+@media (min-width: 1800px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+@media (min-width: 1400px) {
+  html {
+    font-size: 14px;
+  }
+  .corp {
+      padding: 14rem 16rem;
+  }
+
+}
+
+@media (min-width: 1000px) {
+  html {
+    font-size: 10px;
+  }
+
+  .troops {
+    padding: 4rem 8rem;
+  }
+
+  .troops h3 {
+    font-size: 3rem
+  }
+
+  .corp {
+    padding: 8rem 10rem;
+  }
+
+  .corp h3 {
+    font-size: 2.5rem;
+  }
+}
+
+@media (max-width: 500px) {
+  html {
+    font-size: 5px;
+  }
+
 }
